@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="containerLogin">
+    </div>
+    <div class="login-form">
+        <h2>Insira seu email e senha</h2>
+        <form id="loginForm" method="POST">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="" required>
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" class="styled-button">Entrar<i class="icon-lock"></i></button>
+            <footer>Ou crie seu <a href="https://criarlogin.netlify.app/">login</a></footer>
+        </form>
+    </div>
+
+    <script src="forwardToTask.js"></script>
+</body>
+</html>
